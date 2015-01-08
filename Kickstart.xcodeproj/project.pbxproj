@@ -14,6 +14,10 @@
 		C2104A4D1A595B16001ACE90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2104A4C1A595B16001ACE90 /* Images.xcassets */; };
 		C2104A501A595B16001ACE90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2104A4E1A595B16001ACE90 /* LaunchScreen.xib */; };
 		C2104A5C1A595B16001ACE90 /* KickstartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2104A5B1A595B16001ACE90 /* KickstartTests.m */; };
+		C24093981A5D6B48006C9F59 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24093961A5D6B48006C9F59 /* AboutViewController.m */; };
+		C24093991A5D6B48006C9F59 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24093971A5D6B48006C9F59 /* AboutViewController.xib */; };
+		C240939B1A5D6C66006C9F59 /* CrazyDrag.html in Resources */ = {isa = PBXBuildFile; fileRef = C240939A1A5D6C66006C9F59 /* CrazyDrag.html */; };
+		C24093D41A5D74B1006C9F59 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = C24093D31A5D74B1006C9F59 /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		C2104A551A595B16001ACE90 /* KickstartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickstartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2104A5A1A595B16001ACE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2104A5B1A595B16001ACE90 /* KickstartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickstartTests.m; sourceTree = "<group>"; };
+		C24093951A5D6B48006C9F59 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		C24093961A5D6B48006C9F59 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		C24093971A5D6B48006C9F59 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		C240939A1A5D6C66006C9F59 /* CrazyDrag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = CrazyDrag.html; path = Kickstart/CrazyDrag.html; sourceTree = "<group>"; };
+		C24093D31A5D74B1006C9F59 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,8 @@
 		C2104A331A595B16001ACE90 = {
 			isa = PBXGroup;
 			children = (
+				C24093D31A5D74B1006C9F59 /* Entitlements.plist */,
+				C240939A1A5D6C66006C9F59 /* CrazyDrag.html */,
 				C2104A3E1A595B16001ACE90 /* Kickstart */,
 				C2104A581A595B16001ACE90 /* KickstartTests */,
 				C2104A3D1A595B16001ACE90 /* Products */,
@@ -81,13 +92,8 @@
 		C2104A3E1A595B16001ACE90 /* Kickstart */ = {
 			isa = PBXGroup;
 			children = (
-				C2104A431A595B16001ACE90 /* AppDelegate.h */,
-				C2104A441A595B16001ACE90 /* AppDelegate.m */,
-				C2104A461A595B16001ACE90 /* ViewController.h */,
-				C2104A471A595B16001ACE90 /* ViewController.m */,
-				C2104A491A595B16001ACE90 /* Main.storyboard */,
+				C2104A651A595C68001ACE90 /* Main */,
 				C2104A4C1A595B16001ACE90 /* Images.xcassets */,
-				C2104A4E1A595B16001ACE90 /* LaunchScreen.xib */,
 				C2104A3F1A595B16001ACE90 /* Supporting Files */,
 			);
 			path = Kickstart;
@@ -96,6 +102,9 @@
 		C2104A3F1A595B16001ACE90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2104A431A595B16001ACE90 /* AppDelegate.h */,
+				C2104A441A595B16001ACE90 /* AppDelegate.m */,
+				C2104A4E1A595B16001ACE90 /* LaunchScreen.xib */,
 				C2104A401A595B16001ACE90 /* Info.plist */,
 				C2104A411A595B16001ACE90 /* main.m */,
 			);
@@ -119,6 +128,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2104A651A595C68001ACE90 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C24093951A5D6B48006C9F59 /* AboutViewController.h */,
+				C24093961A5D6B48006C9F59 /* AboutViewController.m */,
+				C24093971A5D6B48006C9F59 /* AboutViewController.xib */,
+				C2104A461A595B16001ACE90 /* ViewController.h */,
+				C2104A471A595B16001ACE90 /* ViewController.m */,
+				C2104A491A595B16001ACE90 /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +151,7 @@
 				C2104A381A595B16001ACE90 /* Sources */,
 				C2104A391A595B16001ACE90 /* Frameworks */,
 				C2104A3A1A595B16001ACE90 /* Resources */,
+				C256D4B11A5984E800DE6C58 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -199,6 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24093D41A5D74B1006C9F59 /* Entitlements.plist in Resources */,
+				C240939B1A5D6C66006C9F59 /* CrazyDrag.html in Resources */,
+				C24093991A5D6B48006C9F59 /* AboutViewController.xib in Resources */,
 				C2104A4B1A595B16001ACE90 /* Main.storyboard in Resources */,
 				C2104A501A595B16001ACE90 /* LaunchScreen.xib in Resources */,
 				C2104A4D1A595B16001ACE90 /* Images.xcassets in Resources */,
@@ -214,12 +240,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C256D4B11A5984E800DE6C58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2104A381A595B16001ACE90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2104A481A595B16001ACE90 /* ViewController.m in Sources */,
+				C24093981A5D6B48006C9F59 /* AboutViewController.m in Sources */,
 				C2104A451A595B16001ACE90 /* AppDelegate.m in Sources */,
 				C2104A421A595B16001ACE90 /* main.m in Sources */,
 			);
@@ -280,7 +323,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -300,6 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -321,8 +366,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -343,9 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = Kickstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,6 +401,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				INFOPLIST_FILE = Kickstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +462,7 @@
 				C2104A611A595B16001ACE90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2104A621A595B16001ACE90 /* Build configuration list for PBXNativeTarget "KickstartTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +471,7 @@
 				C2104A641A595B16001ACE90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
